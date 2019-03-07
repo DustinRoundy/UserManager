@@ -1,0 +1,12 @@
+doctype html
+html
+    head
+        title List Of Users
+    body
+        h4 Add User
+        form(method='post' action='/adduser')
+            input(type='text' name='first' placeholder='first name')
+            input(type='text' name='last' placeholder='last name')
+            input(type='email' name='email' placeholder='email')
+            input(type='password' name='password' placeholder='password')
+            button(type='submit') Add User
